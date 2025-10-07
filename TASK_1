@@ -1,0 +1,170 @@
+# Python Practice Assignment
+
+This assignment is divided into three sections:
+- **Basic Tasks (10 tasks)** – Build fundamental skills.
+- **Advanced Tasks (15 tasks)** – Develop problem-solving ability.
+- **Expert Tasks (5 tasks)** – Apply skills in real-world mini-projects.
+
+Each task includes instructions and expected output hints.
+
+---
+
+## **1. Basic Tasks (10 Tasks)**
+> *Goal:* Strengthen fundamentals — variables, data types, conditions, loops, and functions.
+
+### **Task 1: Data Types Practice**
+- Create variables of type `string`, `int`, `float`, `boolean`, and `list`.
+- Print each variable and its type using `type()`.
+- **Expected Output:**
+  ```
+  42 <class 'int'>
+  Hello <class 'str'>
+  ```
+
+### **Task 2: Simple Calculator**
+- Take two numbers as input.
+- Print their sum, difference, product, and quotient.
+
+### **Task 3: String Methods Exploration**
+- Take a string: "  Python Programming  ".
+- Apply `.upper()`, `.lower()`, `.strip()`, `.replace('Python', 'Java')`.
+
+### **Task 4: Even or Odd Checker**
+- Take a number as input.
+- Print whether it's even or odd using `if-else`.
+
+### **Task 5: Age Check (Ternary Operator)**
+- Input age.
+- Print `Adult` if age >= 18 else `Minor` using a ternary operator.
+
+### **Task 6: Largest of Three Numbers**
+- Input three numbers.
+- Print the largest using `if-elif-else`.
+
+### **Task 7: Sum of Numbers in a List**
+- Create a list `[1, 2, 3, 4, 5]`.
+- Use a loop to calculate and print the total sum.
+
+### **Task 8: Vowel Counter**
+- Input a string.
+- Count how many vowels (`a, e, i, o, u`) it has.
+
+### **Task 9: Multiplication Table**
+- Input a number.
+- Print its multiplication table up to 10.
+
+### **Task 10: Factorial with Loop**
+- Input a number.
+- Compute its factorial using a `for` loop.
+
+---
+
+## **2. Advanced Tasks (15 Tasks)**
+> *Goal:* Work on problem-solving and intermediate logic.
+
+### **Task 11: Email Validator**
+- Check if an email has both `@` and `.` characters.
+- Print `Valid Email` or `Invalid Email`.
+
+### **Task 12: List Comprehension - Even Numbers**
+- Create a list of numbers from 1 to 20.
+- Use list comprehension to create a list of only even numbers.
+
+### **Task 13: Prime Number Checker**
+- Create a function that checks if a number is prime.
+- Return `True` or `False`.
+
+### **Task 14: Fibonacci Series**
+- Input `n`.
+- Print first `n` Fibonacci numbers using a loop.
+
+### **Task 15: Word Frequency Counter**
+- Input a sentence.
+- Count each word’s frequency using a dictionary.
+
+### **Task 16: Grade Assignment**
+- Input marks.
+- Print grade using nested `if-else`:
+  - A: 90+, B: 80-89, C: 70-79, D: 60-69, F: <60
+
+### **Task 17: Sum of Digits**
+- Input number like `123`.
+- Output `1 + 2 + 3 = 6`.
+
+### **Task 18: Palindrome Checker**
+- Input a string.
+- Check if it reads the same forwards and backwards.
+
+### **Task 19: Temperature Converter**
+- Convert between Celsius ↔ Fahrenheit.
+- Formula: `F = (C * 9/5) + 32`
+
+### **Task 20: Remove Duplicates from List**
+- Input list `[1, 2, 2, 3, 4, 4, 5]`.
+- Remove duplicates and print result.
+
+### **Task 21: Find Maximum Without max()**
+- Write a loop to find the maximum value in a list.
+
+### **Task 22: Reverse String Without Slicing**
+- Use a loop to reverse a string.
+
+### **Task 23: Even and Odd Sum**
+- Given list `[1, 2, 3, 4, 5, 6]`.
+- Print separate sums of even and odd numbers.
+
+### **Task 24: Subset Check**
+- Given two sets, check if one is a subset of the other.
+
+### **Task 25: Pattern Printing**
+- Print:
+  ```
+  *
+  **
+  ***
+  ****
+  *****
+  ```
+
+---
+
+## **3. Expert-Level Tasks (5 Tasks)**
+> *Goal:* Apply concepts in small projects.
+
+### **Task 26: Custom Sort Algorithm**
+- Implement bubble sort to sort a list.
+- **Do not** use `sorted()` or `.sort()`.
+
+### **Task 27: Mini ATM Simulation**
+- Options: `Check Balance`, `Deposit`, `Withdraw`, `Exit`.
+- Use loops and conditions.
+- Example:
+  ```
+  1. Check Balance
+  2. Deposit
+  3. Withdraw
+  4. Exit
+  ```
+
+### **Task 28: JSON Handling**
+- Read JSON from a file.
+- Print specific values from it.
+
+### **Task 29: CLI Calculator**
+- Take user input for `+`, `-`, `*`, `/`.
+- Use functions for each operation.
+
+### **Task 30: Recursive Functions**
+- Implement factorial and Fibonacci using recursion.
+
+---
+
+## **Grading Suggestion**
+| Section   | Tasks | Marks |
+|-----------|-------|-------|
+| Basic     | 10    | 20    |
+| Advanced  | 15    | 50    |
+| Expert    | 5     | 30    |
+| **Total** | **30**| **100** |
+
+--- 
